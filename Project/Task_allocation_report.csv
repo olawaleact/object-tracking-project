@@ -1,0 +1,33 @@
+Team Member (Name and ID),Contributions,Common contributions,Files/Modules Touched,Section of report focussed on 
+Umut Tanriverdi [],Implemented core algorithm logic (developed main functions in the algorithm module).,Provided important information towards accomplishing the set task most especially getting CARLA simulator to get working,"cost_functions.py, MotionPlanner.py, VelocityProfileGenerator.py, cost_functions.py, BehavioralPlannerFSM.py, Run CARLA
+Run SimulatorAPI.py","Section 1, 2  and 6"
+,Troubleshooted and executed unit tests for algorithm components to ensure correctness.,Assist in debugging,,
+,"Co-authored the final project report, highlighting the algorithm design and implementation.",Proof reading the whole report,,
+Matthias Gander [],Developed advanced algorithm features and optimizations (improved performance and accuracy).,Provided important information towards accomplishing the set task most especially getting CARLA simulator to get working,"cost_functions.py, MotionPlanner.py, VelocityProfileGenerator.py, cost_functions.py, BehavioralPlannerFSM.py, Run CARLA
+Run SimulatorAPI.py","Section  2, 3   and 6"
+,Set up the containerization environment (wrote the Docker configuration for deployment).,Assist in debugging,,
+,"Contributed to final report writing, documenting performance results and environment setup.",Proof reading the whole report,,
+Gabor Levai [],Designed and ran comprehensive unit tests across modules to verify reliability.,Provided important information towards accomplishing the set task most especially getting CARLA simulator to get working,"cost_functions.py, MotionPlanner.py, VelocityProfileGenerator.py, cost_functions.py, BehavioralPlannerFSM.py, Run CARLA
+Run SimulatorAPI.py","Section 3, 4  and 6"
+,"Validated simulator outputs against expected results, adjusting simulation parameters for accuracy.",Assist in debugging,,
+,"Co-authored the final report, focusing on testing outcomes and simulation analysis.",Proof reading the whole report,,
+Olawale David Salami [K1357441],Conducted extensive simulator validation.,Provided important information towards accomplishing the set task most especially getting CARLA simulator to get working,"cost_functions.py, MotionPlanner.py, VelocityProfileGenerator.py, cost_functions.py, BehavioralPlannerFSM.py, Run CARLA
+Run SimulatorAPI.py","Section 4, 5  and 6"
+,Managed container setup and integration (ensured the application runs smoothly in Docker).,Assist in debugging,,
+,"Contributed to the final report, emphasizing system integration and deployment aspects.",Proof reading the whole report,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
