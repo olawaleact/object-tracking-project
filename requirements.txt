@@ -1,0 +1,12 @@
+easydict
+matplotlib
+numpy
+git+https://github.com/climbingdaily/pypcd #pypcd
+ipykernel
+ipywidgets
+open3d
+opencv-python
+pillow
+protobuf==3.20.0
+shapely
+sympy
