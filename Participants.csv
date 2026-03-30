@@ -1,45 +1,29 @@
-Team Member (Name and ID),Contributions,Common contributions,Files/Modules Touched,Section of report focused on
-Umut Tanriverdi [],Adapted the BEV preprocessing pipeline from the exercise material and integrated SFA3D for LiDAR-based 3D detection.,Reviewed task breakdown and module integration decisions for the multi-object tracking assignment.,"detection/sfa3d/bev.py,
-detection/sfa3d/config.py,
-detection/sfa3d/adapter.py,
-detection/types.py","Set up
-3D Object Detection Part"
-,"Implemented model loading, inference, and conversion of decoded detector outputs into metric Detection3D objects.","Assisted in debugging environment, dependency, and notebook execution issues during integration.",,
-,Prepared runnable notebook cells for LiDAR detection and sample visual validation on real frames.,Proofread the final notebook report and checked the final outputs before submission.,,
-Matthias Gander [],Built the detection evaluation workflow using LiDAR annotations from the dataset.,Reviewed task breakdown and module integration decisions for the multi-object tracking assignment.,"detection/evaluation.py,
-detection/sfa3d/adapter.py,
-final_mot_report.ipynb",3D Object Detection Part
-,Ran one-frame and multi-frame precision/recall checks and analyzed the detector's behavior on the provided sequence.,"Assisted in debugging environment, dependency, and notebook execution issues during integration.",,
-,"Documented detection performance, BEV assumptions, and detector limitations in the notebook report.",Proofread the final notebook report and checked the final outputs before submission.,,
-Gabor Levai [],"Implemented the LiDAR-only tracking modules: constant-velocity Kalman filter, measurements, Track class, and data association.",Reviewed task breakdown and module integration decisions for the multi-object tracking assignment.,"tracking/filter.py,
-tracking/measurements.py,
-tracking/track.py,
-tracking/association.py,
-tracking/tracker.py",Multi-Object Tracking
-,"Connected real Detection3D outputs to the tracker and validated stable IDs, state updates, and lifecycle transitions across frames.","Assisted in debugging environment, dependency, and notebook execution issues during integration.",,
-,Added notebook-ready sequence loops for LiDAR-only tracking and simple Matplotlib-based visualization.,Proofread the final notebook report and checked the final outputs before submission.,,
-Olawale David Salami [K1357441],"Added camera measurements and the camera sensor model, including projection, Jacobian calculation, and field-of-view checks.",Reviewed task breakdown and module integration decisions for the multi-object tracking assignment.,"tracking/sensors.py,
-tracking/measurements.py,
-tracking/tracker.py,
-tracking_outputs/,
-final_mot_report.ipynb","Project Overview
-Set up
-Multi-Object Tracking"
-,Integrated camera-to-track association and EKF-style camera updates for fused LiDAR + camera tracking.,"Assisted in debugging environment, dependency, and notebook execution issues during integration.",,
-,"Polished the final Jupyter notebook, generated PNG/GIF tracking outputs, and consolidated the final report sections.",Proofread the final notebook report and checked the final outputs before submission.,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
+Name,Contribution
+"Olawale David Salami [K1357441]","- Added camera measurements and the camera sensor model, including projection, Jacobian calculation, and field-of-view checks.
+- Reviewed task breakdown and module integration decisions for the multi-object tracking assignment.
+- Files: tracking/sensors.py, tracking/measurements.py, tracking/tracker.py, tracking_outputs/, final_mot_report.ipynb
+- Sections: Project Overview, Set up, Multi-Object Tracking
+- Integrated camera-to-track association and EKF-style camera updates for fused LiDAR + camera tracking.
+- Assisted in debugging environment, dependency, and notebook execution issues during integration.
+- Polished the final Jupyter notebook, generated PNG/GIF tracking outputs, and consolidated the final report sections.
+- Implemented the LiDAR-only tracking modules: constant-velocity Kalman filter, measurements, Track class, and data association."
+
+"Umut Tanriverdi [K12105807]","- Adapted the BEV preprocessing pipeline from the exercise material and integrated SFA3D for LiDAR-based 3D detection.
+- Reviewed task breakdown and module integration decisions for the multi-object tracking assignment.
+- Files: detection/sfa3d/bev.py, detection/sfa3d/config.py, detection/sfa3d/adapter.py, detection/types.py
+- Sections: Set up 3D Object Detection Part
+- Implemented model loading, inference, and conversion of decoded detector outputs into metric Detection3D objects.
+- Assisted in debugging environment, dependency, and notebook execution issues during integration.
+- Prepared runnable notebook cells for LiDAR detection and sample visual validation on real frames.
+- Proofread the final notebook report and checked the final outputs before submission.
+- Connected real Detection3D outputs to the tracker and validated stable IDs, state updates, and lifecycle transitions across frames."
+
+"Matthias Gander [K12105887]","- Built the detection evaluation workflow using LiDAR annotations from the dataset.
+- Reviewed task breakdown and module integration decisions for the multi-object tracking assignment.
+- Files: detection/evaluation.py, detection/sfa3d/adapter.py, final_mot_report.ipynb
+- Sections: 3D Object Detection Part
+- Ran one-frame and multi-frame precision/recall checks and analyzed the detector's behavior on the provided sequence.
+- Assisted in debugging environment, dependency, and notebook execution issues during integration.
+- Documented detection performance, BEV assumptions, and detector limitations in the notebook report.
+- Proofread the final notebook report and checked the final outputs before submission."
+- Implemented the LiDAR-only tracking modules: constant-velocity Kalman filter, measurements, Track class, and data association."
